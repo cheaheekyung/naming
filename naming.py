@@ -26,7 +26,7 @@ def is_reserved_keyword(variable_name):
 st.title("변수 이름 한/영 변환기 🤖")
 st.divider()
 st.write("한글 변수명을 영어로 바꿔드립니다.")
-st.write("*예시) 사용자 이름  ->  user_name* / 숫자는 한글로 입력!")
+st.write("*예시) 사용자 이름  ->  user_name* / 첫 글자가 숫자라면 한글로 입력!")
 
 # 사용자가 입력한 텍스트를 받기 위한 텍스트 박스
 user_input = st.text_input("변수 이름을 한글로 입력하세요✏️")
