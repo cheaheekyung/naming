@@ -3,7 +3,7 @@ from deep_translator import GoogleTranslator
 import re
 import keyword
 
-# 변수명 생성 함수
+# 변수명 생성 함수임
 def generate_variable_name(korean_text, style='snake_case'):
     try:
         # 한글을 영어로 번역
@@ -23,7 +23,7 @@ def is_reserved_keyword(variable_name):
     return variable_name in keyword.kwlist
 
 # Streamlit 페이지 설정
-st.title("변수 이름 변환기 🤖")
+st.title("변수 이름 한/영 변환기 🤖")
 st.divider()
 st.write("한글 변수명을 영어로 바꿔드립니다.")
 st.write("*예시) 사용자 이름  ->  user_name*")
