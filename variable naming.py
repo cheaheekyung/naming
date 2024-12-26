@@ -3,7 +3,7 @@ from deep_translator import GoogleTranslator
 import re
 import keyword
 
-# 변수명 생성 함수임
+# 변수명 생성 함수
 def generate_variable_name(korean_text, style='snake_case'):
     try:
         # 한글을 영어로 번역
