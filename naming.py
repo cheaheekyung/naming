@@ -50,3 +50,4 @@ if user_input:
         st.write(f"추천 변수명 : {result}")
 
 # 수정
+# 수정
